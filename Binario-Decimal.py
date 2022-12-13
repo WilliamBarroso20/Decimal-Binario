@@ -1,7 +1,6 @@
-
 numero_decimal = int(input("ingrese un número entero "))
-print("{numero_decimal}")
-numero_decimal = 29 # este es el número que queremos convertir a binario
+print("{",numero_decimal,"}")
+
 modulos = [] # la lista para guardar los módulos
 
 while numero_decimal != 0: # mientras el número de entrada sea diferente de cero
@@ -22,3 +21,4 @@ for digito_string in numero_binario:
 	print(f'Dígito: {digito}, posición: {posicion}')
 	posicion -= 1 # restamos 1 a la posición
      
+
